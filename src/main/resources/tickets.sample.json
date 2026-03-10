@@ -1,0 +1,72 @@
+[
+  {
+    "createdAt": "2026-02-11T10:00:00+01:00",
+    "severity": 1,
+    "customerTier": "ENTERPRISE",
+    "category": "PAYMENTS",
+    "summary": "Checkout fails intermittently with 500 on /authorize"
+  },
+  {
+    "createdAt": "2026-02-11T16:30:00+01:00",
+    "severity": 2,
+    "customerTier": "PRO",
+    "category": "BILLING",
+    "summary": "Invoice export times out for large accounts"
+  },
+  {
+    "createdAt": "2026-02-15T11:00:00+01:00",
+    "severity": 2,
+    "customerTier": "ENTERPRISE",
+    "category": "LOGIN",
+    "summary": "SSO login loop for users with multiple org memberships"
+  },
+  {
+    "createdAt": "2026-02-10T08:40:00+01:00",
+    "severity": 3,
+    "customerTier": "FREE",
+    "category": "OTHER",
+    "summary": "UI shows empty dashboard after first login"
+  },
+  {
+    "createdAt": "2026-02-10T17:10:00+01:00",
+    "severity": 1,
+    "customerTier": "PRO",
+    "category": "INTEGRATIONS",
+    "summary": "Webhook delivery lag spikes above 30 minutes"
+  },
+  {
+    "createdAt": "2026-02-12T13:05:00+01:00",
+    "severity": 4,
+    "customerTier": "FREE",
+    "category": "BILLING",
+    "summary": "Cannot update payment method from settings page"
+  },
+  {
+    "createdAt": "2026-02-13T15:55:00+01:00",
+    "severity": 5,
+    "customerTier": "ENTERPRISE",
+    "category": "PAYMENTS",
+    "summary": "Refund requests not visible in admin panel"
+  },
+  {
+    "createdAt": "2026-02-14T09:20:00+01:00",
+    "severity": 3,
+    "customerTier": "PRO",
+    "category": "LOGIN",
+    "summary": "Password reset email sometimes not received"
+  },
+  {
+    "createdAt": "2026-02-09T11:45:00+01:00",
+    "severity": 2,
+    "customerTier": "FREE",
+    "category": "OTHER",
+    "summary": "CSV import fails on rows with quoted commas"
+  },
+  {
+    "createdAt": "2026-02-09T16:59:00+01:00",
+    "severity": 1,
+    "customerTier": "ENTERPRISE",
+    "category": "INTEGRATIONS",
+    "summary": "ERP sync job stuck in RUNNING state"
+  }
+]

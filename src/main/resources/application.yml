@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: support-queue
+  jackson:
+    time-zone: Europe/Warsaw
+    date-format: yyyy-MM-dd HH:mm:ssXXX
+    serialization:
+      write-dates-as-timestamps: false
+
+logging:
+  level:
+    com.example.supportqueue: DEBUG
+    org.springframework: INFO
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
